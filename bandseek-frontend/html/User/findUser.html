@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>查找用户</title>
+    <link rel="stylesheet" href="../../layui/css/layui.css">
+    <link rel="stylesheet" href="../../myStyle.css">
+    <script src="../../layui/layui.all.js"></script>
+    <script src="../../js/User/findUser.js" type="module"></script>
+</head>
+<body>
+<div id="topBar" style="position:relative;left: 10%;width: 80%">
+    <ul class="layui-nav" style="background-color: #6ac5e8;height: 120px">
+
+        <div style="margin-top:20px;float: right;width: 300px">
+            <a href="../home.html" style="font-size: 40px;color: white">BandSeek</a>
+            <br/><br/>
+            <a href="../home.html" style="font-size: 20px;color: white">to manage your band online!</a>
+        </div>
+        <li id="welcome"class="layui-nav-item" style="float: left"></li>
+        <li class="layui-nav-item" id="logout" style="float:left">
+            <a href="">退出登录</a>
+        </li>
+        <div id="isLogout">
+            <li class="layui-nav-item" id = "goLogin">
+                <a href="../login.html">前往登录</a>
+            </li>
+            <li class="layui-nav-item" id="goRegister">
+                <a href="../register.html">前往注册</a>
+            </li>
+        </div>
+
+    </ul>
+</div>
+<div id="buttonGroup" style="height: 60px;width:80%;background-color: #E5E8E8;margin: 0 0 0 10%">
+    <a class="jumpButton" href="../home.html">
+        主页
+    </a>
+    <a class="jumpButton" href="user.html" style="background-color: #90d8f3">
+        个人中心
+    </a>
+    <a class="jumpButton" href="../Band/band.html">
+        乐队中心
+    </a>
+    <a class="jumpButton" style="margin-right: 0" href="../MailBox/myMail.html">
+        消息中心
+    </a>
+</div>
+
+<div id="body" class="layui-container">
+    <fieldset class="layui-elem-field" style="width: 100%;position:relative;top: 5%;margin-left: 0;height: 80%;float:left;">
+        <legend style="font-size: 30px;margin-top: 5%">查找其他乐手</legend>
+        <form class="layui-form">
+            <div class="layui-form-item">
+                <div class="layui-input-block" style="width: 40%;float: left;margin-left: 20%">
+                    <input type="text" id = "user_id" placeholder="请输入用户的账号" autocomplete="off" class="layui-input">
+                </div>
+
+
+                <button type="button" class="layui-btn" id="findById" style="margin-right: 20%">按乐手账号查询</button>
+            </div>
+
+            <div class="layui-form-item">
+                <div class="layui-input-block" style="width: 40%;float: left;margin-left: 20%">
+                    <select id="role" name="role" lay-verify="required">
+                        <option value="0" selected>请选择乐手的角色：</option>
+                        <option value="1">主唱</option>
+                        <option value="2">吉他手</option>
+                        <option value="3">贝斯手</option>
+                        <option value="4">鼓手</option>
+                        <option value="5">键盘手</option>
+                    </select>
+                </div>
+                <button type="button" class="layui-btn" id="findByRole" style="margin-right: 20%">按乐手角色查询</button>
+            </div>
+
+        </form>
+        <hr class="layui-bg-blue" style="width: 80%;margin-left: 10%">
+        <div id="content"></div>
+        <ul id="user_list"></ul>
+    </fieldset>
+</div>
+</body>
+</html>

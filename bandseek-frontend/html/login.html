@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>UserLogin</title>
+    <link rel="stylesheet" href="../layui/css/layui.css">
+    <link rel="stylesheet" href="../myStyle.css">
+    <script src="../layui/layui.all.js"></script>
+    <script src="../js/User/login.js" type="module"></script>
+</head>
+<body>
+<script>
+    layui.use('form', function() {
+        var form = layui.form;
+        form.render();
+    });
+</script>
+<div id="topBar" style="position:relative;left: 10%;width: 80%">
+    <ul class="layui-nav" style="background-color: #6ac5e8;height: 120px">
+
+        <div style="margin-top:20px;float: right;width: 300px">
+            <a href="home.html" style="font-size: 40px;color: white">BandSeek</a>
+            <br/><br/>
+            <a href="home.html" style="font-size: 20px;color: white">to manage your band online!</a>
+        </div>
+        <li id="welcome"class="layui-nav-item" style="float: left"></li>
+        <div id="isLogout">
+            <li class="layui-nav-item" id = "goLogin">
+                <a href="login.html">前往登录</a>
+            </li>
+            <li class="layui-nav-item" id="goRegister">
+                <a href="register.html">前往注册</a>
+            </li>
+        </div>
+    </ul>
+</div>
+<div class="layui-container" id="body">
+<fieldset class="layui-elem-field">
+    <legend style="font-size: 30px;margin-top: 5%">用户登陆</legend>
+    <div class="layui-container" style="float: left;width: 40%;margin: 5% 0 0 0">
+        <img src="../asserts/guitar1.PNG" style="width:100%;margin-left: 5%">
+        <p style="font-family: 'Calibri Light';font-size: 18px;color: #156381"><br/>~ Simplify your band management ~</p>
+    </div>
+
+    <form class="layui-form" action="" style="margin:10%;width: 40%;float: right">
+        <div class="layui-form-item" style="margin: 5%">
+<!--            <label class="layui-form-label">账号：</label>-->
+            <div class="layui-input-block">
+                <input id="user_id" type="text" name="user_id" placeholder="请输入账号" autocomplete="off" class="layui-input">
+            </div>
+        </div>
+        <div class="layui-form-item" style="margin: 5%">
+<!--            <label class="layui-form-label">密码：</label>-->
+            <div class="layui-input-block">
+                <input id="user_pwd" type="password" name="user_pwd" placeholder="请输入密码" autocomplete="off" class="layui-input">
+            </div>
+        </div>
+        <div class="layui-form-item">
+            <div class="layui-input-block" style="margin-top: 10%">
+                <button class="layui-btn" id="login" style="float: left;margin-left: 10%;background-color: #156381">登 录</button>
+                <button type="reset" class="layui-btn layui-btn-primary" style="float: right;margin-right: 10%">重 置</button>
+            </div>
+        </div>
+    </form>
+</fieldset>
+</div>
+</body>
+</html>

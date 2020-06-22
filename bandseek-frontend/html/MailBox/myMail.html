@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>MyMail</title>
+    <link rel="stylesheet" href="../../layui/css/layui.css">
+    <link rel="stylesheet" href="../../myStyle.css">
+    <script src="../../layui/layui.all.js"></script>
+    <script src="../../js/Mail/myMail.js" type="module"></script>
+</head>
+<body>
+<div id="topBar" style="position:relative;left: 10%;width: 80%">
+    <ul class="layui-nav" style="background-color: #6ac5e8;height: 120px">
+
+        <div style="margin-top:20px;float: right;width: 300px">
+            <a href="../home.html" style="font-size: 40px;color: white">BandSeek</a>
+            <br/><br/>
+            <a href="../home.html" style="font-size: 20px;color: white">to manage your band online!</a>
+        </div>
+        <li id="welcome"class="layui-nav-item" style="float: left"></li>
+        <li class="layui-nav-item" id="logout" style="float:left">
+            <a href="">退出登录</a>
+        </li>
+        <div id="isLogout">
+            <li class="layui-nav-item" id = "goLogin">
+                <a href="../login.html">前往登录</a>
+            </li>
+            <li class="layui-nav-item" id="goRegister">
+                <a href="../register.html">前往注册</a>
+            </li>
+        </div>
+
+    </ul>
+</div>
+<div id="buttonGroup" style="height: 60px;width:80%;background-color: #E5E8E8;margin: 0 0 0 10%">
+    <a class="jumpButton" href="../home.html">
+        主页
+    </a>
+    <a class="jumpButton" href="../User/user.html">
+        个人中心
+    </a>
+    <a class="jumpButton" href="../Band/band.html">
+        乐队中心
+    </a>
+    <a class="jumpButton" style="margin-right: 0;background-color: #90d8f3" href="myMail.html">
+        消息中心
+    </a>
+</div>
+
+<div id="body" class="layui-container">
+    <fieldset class="layui-elem-field" style="width: 80%;position:relative;top: 5%;margin-left: 10%;height: 600px;float:left;">
+        <legend style="font-size: 30px;margin-top: 5%">我收到的消息</legend>
+        <div style="overflow-y: scroll;height: 550px;text-align: center">
+            <div id="mail_list"></div>
+        </div>
+    </fieldset>
+
+</div>
+
+</body>
+</html>

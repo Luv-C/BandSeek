@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>register</title>
+    <link rel="stylesheet" href="../layui/css/layui.css">
+    <link rel="stylesheet" href="../myStyle.css">
+    <script src="../layui/layui.all.js"></script>
+    <script src="../js/User/register.js" type="module"></script>
+</head>
+<body>
+
+<div id="topBar" style="position:relative;left: 10%;width: 80%">
+    <ul class="layui-nav" style="background-color: #6ac5e8;height: 120px">
+
+        <div style="margin-top:20px;float: right;width: 300px">
+            <a href="home.html" style="font-size: 40px;color: white">BandSeek</a>
+            <br/><br/>
+            <a href="home.html" style="font-size: 20px;color: white">to manage your band online!</a>
+        </div>
+        <li id="welcome" class="layui-nav-item" style="float: left"></li>
+        <div id="isLogout">
+            <li class="layui-nav-item" id = "goLogin">
+                <a href="login.html">前往登录</a>
+            </li>
+            <li class="layui-nav-item" id="goRegister">
+                <a href="register.html">前往注册</a>
+            </li>
+        </div>
+    </ul>
+</div>
+<div class="layui-container" id="body">
+     <fieldset class="layui-elem-field">
+            <legend style="font-size: 30px;margin-top: 5%">用户注册</legend>
+
+        <form id="registerForm" class="layui-form" action="" style="width: 40%;float: left;margin: 5%">
+            <div class="layui-form-item">
+                <label class="layui-form-label">账&nbsp;&nbsp;&nbsp;&nbsp;号：</label>
+                <div class="layui-input-block">
+                    <input id="user_id" type="text" name="user_id" placeholder="请输入账号,要求使用邮箱格式" autocomplete="off" class="layui-input">
+                </div>
+            </div>
+            <div class="layui-form-item">
+                <label class="layui-form-label">密&nbsp;&nbsp;&nbsp;&nbsp;码：</label>
+                <div class="layui-input-block">
+                    <input id="user_pwd" type="password" name="user_pwd" placeholder="请输入密码" autocomplete="off" class="layui-input">
+                </div>
+            </div>
+            <div class="layui-form-item">
+                <label class="layui-form-label">确认密码：</label>
+                <div class="layui-input-block">
+                    <input id="re_pwd" type="password" name="user_pwd" placeholder="请确认密码" autocomplete="off" class="layui-input">
+                </div>
+            </div>
+            <div class="layui-form-item">
+                <label class="layui-form-label">昵&nbsp;&nbsp;&nbsp;&nbsp;称：</label>
+                <div class="layui-input-block">
+                    <input id="user_name" type="text" name="user_name" placeholder="请输入昵称" autocomplete="off" class="layui-input">
+                </div>
+            </div>
+            <div class="layui-form-item">
+                <label class="layui-form-label">角&nbsp;&nbsp;&nbsp;&nbsp;色：</label>
+                <div class="layui-input-block">
+                <select id="role" name="role" lay-verify="required">
+                    <option value="0" selected>请选择您在乐队中担任的角色：</option>
+                    <option value="1">主唱</option>
+                    <option value="2">吉他手</option>
+                    <option value="3">贝斯手</option>
+                    <option value="4">鼓手</option>
+                    <option value="5">键盘手</option>
+                </select>
+                </div>
+            </div>
+            <div class="layui-form-item">
+                <div class="layui-input-block">
+                    <button class="layui-btn" id="register" style="background-color: #156381;float: left">立即注册</button>
+                    <button type="reset" class="layui-btn layui-btn-primary">重置</button>
+                </div>
+            </div>
+        </form>
+         <div class="layui-container" style="float: right;width: 40%;margin: 5% 5% 5% 0">
+             <img src="../asserts/drum.PNG" style="width:100%;margin-left: 5%;">
+             <p style="font-family: 'Calibri Light';font-size: 18px;color: #156381"><br/>~ Simplify your band management ~</p>
+         </div>
+     </fieldset>
+</div>
+</body>
+</html>

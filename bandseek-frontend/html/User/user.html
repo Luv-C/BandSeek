@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>User</title>
+    <link rel="stylesheet" href="../../layui/css/layui.css">
+    <link rel="stylesheet" href="../../myStyle.css">
+    <script src="../../layui/layui.all.js"></script>
+    <script src="../../js/User/user.js" type="module"></script>
+</head>
+<body>
+<div id="topBar" style="position:relative;left: 10%;width: 80%">
+    <ul class="layui-nav" style="background-color: #6ac5e8;height: 120px">
+
+        <div style="margin-top:20px;float: right;width: 300px">
+            <a href="../home.html" style="font-size: 40px;color: white">BandSeek</a>
+            <br/><br/>
+            <a href="../home.html" style="font-size: 20px;color: white">to manage your band online!</a>
+        </div>
+        <li id="welcome"class="layui-nav-item" style="float: left"></li>
+        <li class="layui-nav-item" id="logout" style="float:left">
+            <a href="">退出登录</a>
+        </li>
+        <div id="isLogout">
+            <li class="layui-nav-item" id = "goLogin">
+                <a href="../login.html">前往登录</a>
+            </li>
+            <li class="layui-nav-item" id="goRegister">
+                <a href="../register.html">前往注册</a>
+            </li>
+        </div>
+
+    </ul>
+</div>
+<div id="buttonGroup" style="height: 60px;width:80%;background-color: #E5E8E8;margin: 0 0 0 10%">
+    <a class="jumpButton" href="../home.html">
+        主页
+    </a>
+    <a class="jumpButton" href="user.html"  style="background-color: #90d8f3">
+        个人中心
+    </a>
+    <a class="jumpButton" href="../Band/band.html">
+        乐队中心
+    </a>
+    <a class="jumpButton" style="margin-right: 0" href="../MailBox/myMail.html">
+        消息中心
+    </a>
+</div>
+<div id="body" class="layui-container">
+    <fieldset class="layui-elem-field" style="width: 40%;position:relative;top: 5%;margin-left: 0;height: 60%;float:left;">
+        <legend style="font-size: 30px;margin-top: 5%">个人信息</legend>
+        <div id="user_info"></div>
+    </fieldset>
+    <fieldset class="layui-elem-field" style="width:55%;position:relative;top: 5%;margin-left: 0;height: 80%;float: right">
+        <legend style="font-size: 30px;margin-top: 5%">用户操作</legend>
+        <div class="layui-container" style="width: 100%;height: 100%;margin: 0 0 0 0">
+            <a href="findUser.html">
+                <div class="userOperation">
+                    <p>查找其他乐手</p>
+                </div>
+            </a>
+            <a href="findBand.html">
+                <div class="userOperation"><p>查找其他乐队</p></div>
+            </a>
+            <a href="userInfo.html">
+                <div class="userOperation"><p>修改个人信息</p></div>
+            </a>
+            <a href="../Band/myBand.html">
+                <div class="userOperation"><p>管理我的乐队</p></div>
+            </a>
+        </div>
+
+
+    </fieldset>
+    <div class="layui-container" style="position: absolute;top:65%;width: 40%;text-align: center;margin-top: 20px">
+        <img src="../../asserts/user_bg.PNG" style="float:left;width:100%">
+    </div>
+</div>
+</body>
+</html>

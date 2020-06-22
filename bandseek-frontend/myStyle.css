@@ -1,0 +1,366 @@
+body{
+    background-color: #E5E8E8 ;
+}
+
+.layui-nav{
+    border-radius:5px;
+}
+
+.hidden{
+    display: none !important;
+}
+
+#registerForm .layui-form-select dl dd.layui-this{
+    background-color:#156381;
+}
+
+#modifyInfo .layui-form-select dl dd.layui-this{
+    background-color:#156381;
+}
+#body{
+    position: relative;
+    height:750px;
+    width: 80%;
+    background-color: white;
+    text-align: center;
+    border-radius: 5px;
+}
+
+.jumpButton{
+    height: 40px;
+    width: 22%;
+    float: left;
+    background-color: #01AAED;
+    text-align: center;
+    font-size: 20px;
+    color: white;
+    margin: 5px 4% 0 0 ;
+    padding-top: 10px;
+    border-radius: 5px;
+}
+
+.userInfo{
+    text-align: left;
+    font-size: 18px;
+    margin: 50px 0 50px 5%;
+}
+.userImg{
+    background-color: #90d8f3;
+    position: absolute;
+    top: 90px;
+    left:55%;
+    width: 110px;
+    height: 140px;
+    border-radius: 5px;
+
+}
+
+.userOperation{
+    width: 40%;
+    height: 35%;
+    background-color: #ffeddc;
+    float: left;
+    margin: 5%;
+    border-radius: 20px;
+    color:#9f7576;
+    font-size: 25px;
+}
+
+.userOperation p{
+    margin-top: 80px;
+}
+
+#content .layui-laypage-em{
+    background-color: #5FB878!important;
+    color: black!important;
+}
+
+#user_list .user{
+    float: left;
+    border-radius: 10px;
+    background-color: #009688;
+    height: 50px;
+    width: 60%;
+    margin:10px 0 10px 10%;
+}
+
+#user_list .user .user_name{
+     float:left;
+     font-size: 20px;
+     margin: 12px 0 0 10px;
+     color: white;
+ }
+
+
+
+#user_list .user .user_id{
+    float: left;
+    font-size: 15px;
+    margin: 15px 0 0 10px;
+    color: white;
+}
+
+#user_list .user .user_type{
+    float: left;
+    font-size: 15px;
+    margin: 15px 0 0 10px;
+    color: white;
+}
+#user_list .user .user_intro{
+    float: right;
+    font-size: 12px;
+    margin: 5px 20px 0 0;
+    color: white;
+    width: 300px;
+}
+
+.invite{
+    float: left;
+    width: 100px;
+    border-radius: 10px;
+    background-color: #90d8f3;
+    height: 50px;
+    border: none;
+    margin:10px 0 10px 5%;
+    color: white;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+#modifyInfo .layui-form-item{
+    margin: 20px 0 40px 0;
+}
+
+#band_list .band{
+    width: 40%;
+    height: 150px;
+    float: left;
+    background-color: #1E9FFF;
+    margin: 1% 0 3% 7%;
+    border-radius: 10px;
+}
+
+#band_list .band_bigger{
+    width: 80%;
+    height: 200px;
+    float: left;
+    background-color: #1E9FFF;
+    margin: 5% 0 0 10%;
+    border-radius: 10px;
+}
+
+#band_list .my_band{
+    width: 80%;
+    height: 200px;
+    float: left;
+    background-color: #9aa8f5;
+    margin: 5% 0 0 10%;
+    border-radius: 10px;
+}
+
+#band_list  .band_id{
+    float: left;
+    margin: 23px 0 0 10px;
+    color: white;
+    font-size: 16px;
+}
+
+#band_list  .band_name{
+     float: left;
+     margin: 16px 0 0 5px;
+     color: white;
+     font-size: 22px;
+     width: 40%;
+     text-align: left;
+}
+
+#band_list  .band_num{
+    margin: 60px 0 0 5px;
+    color: white;
+    font-size: 18px;
+    width: 40%;
+    height: 40px;
+    text-align: left;
+}
+
+#band_list  .band_mem{
+    margin: 10px 0 0 5px;
+    color: white;
+    font-size: 14px;
+    width: 60%;
+    height: 40px;
+    text-align: left;
+}
+
+#band_list  .band_description{
+    float: right;
+    color: white;
+    font-size: 16px;
+    width: 40%;
+    text-align: right;
+    margin: 26px 10px 0 0;
+}
+
+#band_list  .join_left{
+    float: left;
+    background-color: #2db560;
+    font-size: 16px;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    width: 110px;
+    height: 50px;
+    cursor: pointer;
+}
+#band_list  .join_right{
+    float: right;
+    background-color: #2db560;
+    font-size: 16px;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    width: 110px;
+    height: 50px;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+#band_list .exit{
+    float: right;
+    background-color: #ffe093;
+    font-size: 16px;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    width: 110px;
+    height: 50px;
+    margin-right: 0;
+    cursor: pointer;
+}
+
+#member_list .my_member{
+    height: 55px;
+    width: 90%;
+    border-radius: 5px;
+    background-color: #b797f5;
+    margin:5px 0 0 5% !important;
+    text-align: left;
+}
+
+#member_list .member_info{
+    font-size: 16px;
+    color: white;
+    width: 40%;
+    margin: 5px 0 0 5px;
+}
+
+#member_list .operation{
+    font-size: 12px;
+    float: right;
+    color: white;
+    background-color: #b797f5;
+    border: none;
+    height: 14px;
+    margin:30px 8px 0 0;
+    cursor: pointer;
+}
+
+.goToCreate{
+    position: relative;
+    text-align: center;
+    font-size: 18px;
+    top: 120px;
+}
+
+#mail_list .mail{
+    height: 150px;
+    border: black 1px solid;
+    width: 90%;
+    margin: 5px 0 5px 5%;
+    border-radius: 5px;
+}
+
+#mail_list .sender{
+    width: 100%;
+    text-align: left;
+    font-size: 20px;
+    margin: 5px;
+}
+
+#mail_list .content{
+    width: 100%;
+    height: 60px;
+    text-align: left;
+    font-size: 15px;
+    margin-left: 25px;
+}
+#mail_list .date{
+    width: 98%;
+    text-align: right;
+}
+
+#mail_list .deleteButton{
+    background-color: #FF5722;
+    border: none;
+    color: white;
+    width: 100px;
+    height: 35px;
+    float: right;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.mail_field{
+    width: 80%;
+    position:relative;
+    top: 5%;
+    margin-left: 10%;
+    height: 600px;
+    float:left;
+}
+
+.send_mail_title{
+    font-size: 30px!important;
+    margin-top: 5%!important;
+}
+
+.mail_receiver{
+    font-size: 18px;
+    height: 50px;
+    text-align: left;
+    margin-left: 5%;
+}
+
+.mail_textarea{
+    width: 80%;
+    margin-left: 5%;
+    height: 350px;
+    font-size: 16px;
+}
+
+.send_mail_button{
+    font-size: 20px;
+    float: right;
+    color: white;
+    background-color: #1E9FFF;
+    border: none;
+    height: 30px;
+    width: 100px;
+    border-radius: 5px;
+    margin-top: 20px;
+    margin-right: 15%;
+    cursor: pointer;
+}
+.return_button{
+    font-size: 20px;
+    float: right;
+    color: white;
+    background-color: #FF5722;
+    border: none;
+    height: 30px;
+    width: 100px;
+    border-radius: 5px;
+    margin-top: 20px;
+    margin-right: 15%;
+    cursor: pointer;
+}
