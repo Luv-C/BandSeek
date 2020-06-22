@@ -1,7 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="94522686-892f-4e53-b9de-cdc4d79f8584" name="Default Changelist" comment="" />
+    <list default="true" id="94522686-892f-4e53-b9de-cdc4d79f8584" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asserts/festival1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asserts/festival2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asserts/festival3.JPG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asserts/festival4.JPG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asserts/festival5.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/Band/band.html" beforeDir="false" afterPath="$PROJECT_DIR$/html/Band/band.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/Band/createBand.html" beforeDir="false" afterPath="$PROJECT_DIR$/html/Band/createBand.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/Band/myBand.html" beforeDir="false" afterPath="$PROJECT_DIR$/html/Band/myBand.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/MailBox/myMail.html" beforeDir="false" afterPath="$PROJECT_DIR$/html/MailBox/myMail.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/User/findBand.html" beforeDir="false" afterPath="$PROJECT_DIR$/html/User/findBand.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/User/findUser.html" beforeDir="false" afterPath="$PROJECT_DIR$/html/User/findUser.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/User/user.html" beforeDir="false" afterPath="$PROJECT_DIR$/html/User/user.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/User/userInfo.html" beforeDir="false" afterPath="$PROJECT_DIR$/html/User/userInfo.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/html/home.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/myStyle.css" beforeDir="false" afterPath="$PROJECT_DIR$/myStyle.css" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -16,7 +34,11 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
   <component name="ProjectId" id="1co59If0DkgThUG5XMCvw21JiB7" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -25,6 +47,7 @@
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/asserts" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
@@ -36,18 +59,19 @@
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\workspace\github\BandSeek\bandseek-frontend\asserts" />
+      <recent name="C:\Users\15898\Desktop\web_project\bandseek-frontend\asserts" />
+      <recent name="C:\Users\15898\Desktop\web_project\bandseek-frontend\html\User" />
+      <recent name="C:\Users\15898\Desktop\web_project\bandseek-frontend\js" />
+      <recent name="C:\Users\15898\Desktop\web_project\untitled" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\15898\Desktop\web_project\bandseek-frontend\html\User" />
       <recent name="C:\Users\15898\Desktop\web_project\bandseek-frontend\html" />
       <recent name="C:\Users\15898\Desktop\web_project\bandseek-frontend\js\Band" />
       <recent name="C:\Users\15898\Desktop\web_project\bandseek-frontend\js\User" />
       <recent name="C:\Users\15898\Desktop\web_project\bandseek-frontend\html\Band" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\15898\Desktop\web_project\bandseek-frontend\asserts" />
-      <recent name="C:\Users\15898\Desktop\web_project\bandseek-frontend\html\User" />
-      <recent name="C:\Users\15898\Desktop\web_project\bandseek-frontend\js" />
-      <recent name="C:\Users\15898\Desktop\web_project\untitled" />
     </key>
   </component>
   <component name="SvnConfiguration">
@@ -69,6 +93,7 @@
       <workItem from="1592376418273" duration="20615000" />
       <workItem from="1592463559983" duration="46907000" />
       <workItem from="1592658445173" duration="5994000" />
+      <workItem from="1592806736996" duration="6918000" />
     </task>
     <servers />
   </component>
@@ -76,10 +101,18 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="386" y="275" key="FileChooserDialogImpl" timestamp="1592380347314">
+    <state x="0" y="0" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1592823984678">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="386" y="275" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1592380347314" />
+    <state x="0" y="0" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1592823984678" />
+    <state x="678" y="266" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1592807804174">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="678" y="266" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1592807804174" />
+    <state x="386" y="275" key="FileChooserDialogImpl" timestamp="1592807633999">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="386" y="275" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1592807633999" />
     <state x="229" y="230" width="672" height="678" key="search.everywhere.popup" timestamp="1592392123191">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
